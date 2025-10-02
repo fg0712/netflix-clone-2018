@@ -1,0 +1,47 @@
+.header-outer-container{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(20,20,20);
+    background-color: transparent;
+    height: 30vh;
+    color: white;
+    transition: all 0.5s  ease-in;
+    z-index: 1;
+    /* background-color: red; */
+
+}
+.new-black{
+    background-color: rgb(20,20,20);
+}
+.header-container{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+
+}
+.header{
+    width: 140px;
+    display:flex ;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.header-left ul,
+.header-right ul {
+  display: flex;              /* makes list items horizontal */
+  list-style: none;           /* removes bullet points */
+  margin: 0;                  /* removes default margin */
+  padding: 0;                 /* removes default padding */
+  gap: 20px;                  /* space between items */
+}
+
+.header-left li,
+.header-right li {
+  cursor: pointer;            /* makes items look clickable */
+}
